@@ -1,4 +1,4 @@
-public class TwoSumII extends {
+public class TwoSumII {
 	public int[] solution(int[] numbers, int target) {
 		if (numbers == null || numbers.length == 0) {
             return null;
@@ -20,3 +20,5 @@ public class TwoSumII extends {
         return new int[] {-1};
 	}
 }
+
+//https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
