@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Arrays;
+
 public class TwoSumII {
 	public int[] solution(int[] numbers, int target) {
 		if (numbers == null || numbers.length == 0) {
