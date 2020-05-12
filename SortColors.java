@@ -16,7 +16,7 @@ public class SortColors{
             } else if (nums[one] == 2) {
                 two--;
                 swap(nums,one,two);
-            } else {
+            } else {// when nums[one]==1
                 one++;
             }
         }
